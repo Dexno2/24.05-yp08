@@ -7,7 +7,36 @@
 }
 .container{
     max-width: 1110px;
+    margin: 0 auto;
 }
 a{
     text-decoration: none;
+}
+.proekt{
+    margin-top: 156px;
+    margin-bottom: 150px;
+}
+.proekt__title{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.card{
+    position: relative;
+}
+.card__img{
+    max-width: 540px;
+}
+.card__text{
+    left: 255px;
+    top: 255px;
+    position:absolute;
+    padding: 20pxs 25px;
+    z-index: 1;
+    background-color: white;
 }

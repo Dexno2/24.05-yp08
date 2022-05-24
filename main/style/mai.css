@@ -41,7 +41,7 @@
     font-style: normal;
     font-weight: 600px;
     font-size: 14px;
-    color: #FFFFFF;
+    color: white;
 }
 .text__item:hover{
     transform: scale(1.25);
@@ -73,7 +73,7 @@
     font-size: 48px;
     line-height: 71px;
     letter-spacing: 0.01em;
-    color: #FFFFFF;
+    color: white;
 }
 .main__text{
     margin-bottom: 40px;
@@ -83,10 +83,10 @@
     font-size: 16px;
     line-height: 22px;
     width: 60%;
-    color: #FFFFFF;
+    color: white;
 }
 .knop{
-    border: 3px solid #FFFFFF;
+    border: 3px solid white;
     padding: 10px 50px;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0);
@@ -102,5 +102,5 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    color: #FFFFFF;
+    color: white;
 }
