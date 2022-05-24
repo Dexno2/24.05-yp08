@@ -7,13 +7,13 @@
     background-color: rgba(0, 91, 193, 0.6);
     display: flex;
 }
-.logo__link{
-    display: flex;
-}
 .logo{
     padding: 11px 0px;
-    max-width: 9%;
-    margin-right: 28.5%;
+    max-width: 170px;
+    margin-right: 550px;
+}
+.logo__link{
+    display: flex;
 }
 .logo__text{
     font-family: 'Titillium Web';
@@ -84,16 +84,16 @@
     color: #FFFFFF;
     margin-bottom: 40px;
 }
-.btn {
+.knop{
     box-sizing: border-box;
     padding: 10px 50px;
     border: 2px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
 }
-.btn:hover{
+.knop:hover{
     cursor: pointer;
 }
-.btn__text {
+.knop__text {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
