@@ -1,0 +1,105 @@
+.header{
+    background-image: url(../img/pages.png);
+    max-width: 1920px;
+    height: 800px;
+}
+.header-text{
+    background-color: rgba(0, 91, 193, 0.6);
+    display: flex;
+}
+.logo__link{
+    display: flex;
+}
+.logo{
+    padding: 11px 0px;
+    max-width: 9%;
+    margin-right: 28.5%;
+}
+.logo__text{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-self: center;
+}
+.text__item{
+    list-style: none;
+    transition: 0.5s;
+}
+.text__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.text__item:hover{
+    transform: scale(1.25);
+    font-weight: bold;
+}
+.header__main{
+    max-width: 43%;
+    margin-left: 405px;
+}
+.main__bg{
+    position: relative;
+    width: 444px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+.main__content{
+    position: absolute;
+    z-index: 1;
+    left: 595px;
+    top: 282px;
+}
+.header__title{
+    width: 75%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.main__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 60%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.btn {
+    box-sizing: border-box;
+    padding: 10px 50px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
