@@ -36,11 +36,11 @@
     transition: 0.5s;
 }
 .text__link{
+    line-height: 19px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600px;
     font-size: 14px;
-    line-height: 19px;
     color: #FFFFFF;
 }
 .text__item:hover{
@@ -52,18 +52,20 @@
     margin-left: 405px;
 }
 .main__bg{
-    position: relative;
+    background-color: rgba(0, 91, 193, 0.6);
     width: 444px;
     height: 720px;
-    background-color: rgba(0, 91, 193, 0.6);
+    position: relative;
 }
 .main__content{
-    position: absolute;
+    left: 595px;
     z-index: 1;
     left: 595px;
     top: 282px;
+    position: absolute;
 }
 .header__title{
+    margin-bottom: 40px;
     width: 75%;
     font-family: 'Oswald';
     font-style: normal;
@@ -72,9 +74,9 @@
     line-height: 71px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    margin-bottom: 40px;
 }
 .main__text{
+    margin-bottom: 40px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -82,24 +84,23 @@
     line-height: 22px;
     width: 60%;
     color: #FFFFFF;
-    margin-bottom: 40px;
 }
 .knop{
-    box-sizing: border-box;
+    border: 3px solid #FFFFFF;
     padding: 10px 50px;
-    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0);
 }
 .knop:hover{
     cursor: pointer;
 }
 .knop__text {
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: center;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.05em;
     color: #FFFFFF;
 }
