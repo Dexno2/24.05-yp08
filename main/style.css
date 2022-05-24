@@ -44,7 +44,7 @@ a{
 .card{
     position: relative;
 }
-.card__img{
+.card__imge{
     max-width: 540px;
 }
 .card__texts{
