@@ -1,7 +1,6 @@
 .header{
     background-image: url(../img/pages.png);
-    max-width: 1920px;
-    height: 800px;
+    background-size: cover;
 }
 .header-text{
     background-color: rgba(0, 91, 193, 0.6);
