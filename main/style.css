@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald&family=Titillium+Web:wght@600&display=swap');
 @import "style/mai.css";
+@import url('style/footer.css');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -220,7 +221,6 @@ a{
 .news__left {
     width: 250px;
 }
-
 .news__btn {
     display: flex;
     align-items: center;
@@ -231,15 +231,12 @@ a{
     background: #005BC1;
     transition: all 0.5s ease;
 }
-
 .news__text{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -294,7 +291,6 @@ a{
     font-size: 14px;
     line-height: 19px;
     color: #979797;
- 
 }
 .big-card-info{
     display: flex;
@@ -340,7 +336,6 @@ a{
     font-size: 13px;
     line-height: 19px;
     color: #343434;
-    
 }
 .news__card-little h3{
     font-family: 'Oswald';
