@@ -5,6 +5,7 @@
 .header-text{
     background-color: rgba(0, 91, 193, 0.6);
     display: flex;
+    background-size: cover;
 }
 .logo{
     padding: 11px 0px;
