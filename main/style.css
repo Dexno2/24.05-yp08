@@ -351,3 +351,8 @@ a{
 .little-card-img{
     width: 128px;
 }
+@media(max-width:768px){
+    .container{
+        max-width: 700px;
+    }
+}
