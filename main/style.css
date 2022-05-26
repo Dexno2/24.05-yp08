@@ -29,7 +29,7 @@ a{
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    color: #343434;
+    color: black;
 }
 .cards{
     display: flex;
@@ -73,7 +73,7 @@ a{
 .product__title{
     justify-content: start;
     width: 100%;
-    margin-bottom: 70xp;
+    margin-bottom: 70px;
 }
 .product__nav{
     width: 20%;
@@ -82,10 +82,10 @@ a{
     display: flex;
     justify-content: space-between;
 }
-.product__text{
+.product__item{
     list-style: none;
 }
-.product__item{
+.product__link{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -93,15 +93,15 @@ a{
     line-height: 36px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #343434;
+    color: black;
     transition: 0.5s;
 }
-.product__item:hover{
+.product__link:hover{
     text-decoration: underline;
-    text-decoration-color: #005BC1;
-    color: #005BC1;
+    text-decoration-color: rgb(0, 126, 223);
+    color: rgb(0, 126, 223);
 }
-.product__tovar{
+.product__tovars{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -109,25 +109,25 @@ a{
 .tovar{
     max-width: 350px;
     height: 300px;
-    border: 3px solid #005BC1;
+    border: 3px solid rgb(0, 126, 223);
     position: relative;
 }
 .tovar__img{
     width: 100%;
     object-fit: contain;
 }
-.tovar__texts{
-    padding: 0px 25px;
+.tovar__opisanie{
     top: 199px;
     left: 80px;
+    width: 265px;
+    height: 86px;
     position: absolute;
     display: flex;
     align-items: center;
-    width: 265px;
-    height: 86px;
-    background-color: #005BC1;
+    padding: 0px 25px;
+    background-color: rgb(0, 126, 223);
 }
-.tovar__text {
+.tovar__text{
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -135,5 +135,5 @@ a{
     line-height: 27px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
 }
